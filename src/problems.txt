@@ -1,0 +1,19 @@
+
+1. How many elements are there between [135, 246] (inclusive of them) ?
+    Ans : 112
+    246 - 135 = 111 -1 = 110
+    Number of elements = 110 + 2 (inclusive of them) = 112
+    E.x : [2,8] = 6 = [3,4,5,6,7] =6-1 =5 +2 (inclusive of them) = 7
+
+2. What is the number of times we need to divide N by 2 till it reaches 1 ?
+    Ans :   floor(logN)
+
+    Ex : 16 
+        1  ----> 16/2
+        2  ----> 16/2*2
+        3  ----> 16/2*2*2
+        4  ----> 16/2*2*2*2 = 1
+        For N
+          N ---------> N/2^k =1  => N= 2^k = log base 2 N = > logN = k
+          No of time need to divide is logN.
+    
